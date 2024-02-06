@@ -74,7 +74,7 @@ export const projectDetails = [
         project_name: "Food-App",
         project_desc: "It typically include features such as Razor payment gateway, React-Confetti, a beautifull cart section that includes add, remove options and many more. And the UserInterface is so sleek so that the UserExperience would be so smooth. User can order their favourite items.",
         tech_stack: ['JAVASCRIPT', 'CSS'],
-        project_img: project3,
+        project_img: 'project3',
         project_url: 'https://anukeerth-ek.github.io/Food-Delivery-Javascript/',
         reverse: false
 
