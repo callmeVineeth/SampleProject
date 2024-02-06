@@ -43,8 +43,12 @@ const Project = ({data}) => {
         </motion.div>
 
         {/* RIGHT SECTION PROJECT-IMAGE */}
-        <ProjectImageContainer>
-          
+        <ProjectImageContainer
+        //   as={motion.div}
+        // variants={data.reverse ? fadeInLeftVariant : fadeInRightVariant}
+        // initial="hidden"
+        // whileInView="visible"
+        >
             <ProjectImage src={data.project_img}/>
         </ProjectImageContainer>
     </FlexContainer>
